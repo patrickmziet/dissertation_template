@@ -39,6 +39,18 @@
 \definecolor{darkblue}{rgb}{0.0, 0.0, 0.55}
 \usepackage[colorlinks=true,linkcolor=darkblue,allcolors=darkblue]{hyperref} % makes references clickable
 
+% theorems, remarks, lemmas and definitions
+\usepackage{amsthm}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[chapter]
+\numberwithin{equation}{section}
+
+% Figure and equation numbering
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+
+
+
 \begin{document}
 	\include{titlepage}
 	\frontmatter
