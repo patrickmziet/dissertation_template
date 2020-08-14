@@ -24,10 +24,9 @@
 % - TEXT\parencite[see][p10]{latexcompanion}
 % - TEXT\parencite[compare][]{knuthwebsite}
 % - TEXT\parencite[e.g.][page 300]{einstein}
-\usepackage[bibstyle=authoryear]{biblatex}
-
+\usepackage[style=authoryear,sorting=ynt]{biblatex}
 \addbibresource{references.bib}
-
+\renewcommand*{\nameyeardelim}{\addcomma\space}
 \usepackage{palatino} % font
 \usepackage{amsmath}
 \usepackage{amsfonts}
